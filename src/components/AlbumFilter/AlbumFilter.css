@@ -1,0 +1,23 @@
+.AlbumFilter {
+  margin-top: 50px;
+  border-top: 1px solid #e3e3e3;
+  text-align: right;
+  position: relative;
+}
+
+.AlbumFilter button {
+  margin-left: 15px;
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+  padding: 3px 7px;
+  position: relative;
+  top: -5px;
+  font-size: 1.2rem;
+  color: #999;
+  outline: transparent;
+}
+
+.AlbumFilter .albumfilter-selected {
+  border-top: 5px solid #699;
+}

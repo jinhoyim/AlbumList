@@ -1,0 +1,61 @@
+.AlbumDialog .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,0.5);
+}
+
+.AlbumDialog .dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999999;
+  width: 500px;
+  height: 650px;
+  background: #fff;
+  border: 0px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.AlbumDialog .dialog-button-group {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.AlbumDialog .dialog-button-group *{
+  margin: 0px 15px;
+}
+
+.AlbumDialog .dialog-button-group span:nth-child(2) {
+  font-size: 2.8rem;
+}
+
+.AlbumDialog .dialog-album-info {
+  margin-top: 50px;
+  border-top: 1px solid #e3e3e3;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.AlbumDialog .dialog-album-info strong {
+  font-size: 2rem;
+  font-weight: 200;
+  color: #bbb;
+}
+
+.AlbumDialog .dialog-album-info p {
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+.AlbumDialog .dialog-album-info img {
+  width: 80%;
+  height: auto;
+}
